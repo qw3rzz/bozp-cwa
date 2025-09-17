@@ -1,0 +1,56 @@
+body {
+    background: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+.logo a {
+    font-family: "Brush Script MT", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+nav img {
+    width: 40px;
+    height: 40px;
+}
+.experience {
+    font-size: 20px;
+}
+
+.experience span {
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.experience-text {
+    display: inline-block;
+    line-height: 1.2;
+    vertical-align: middle;
+}
