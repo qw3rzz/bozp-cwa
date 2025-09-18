@@ -1,18 +1,25 @@
 body {
     background: white;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
     font-family: Arial, sans-serif;
-    color:black;
+    color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    padding: 35px;
 }
 
 .logo a {
     font-family: "Brush Script MT", cursive;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
     text-decoration: none;
     color: darkcyan;
@@ -26,8 +33,13 @@ nav {
 .menu a {
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
     color: black;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.menu a:hover {
+    transform: scale(1.2);
 }
 .contact {
     display: flex;
@@ -35,22 +47,53 @@ nav {
     gap: 10px;
     font-weight: 500;
 }
+
 nav img {
     width: 40px;
     height: 40px;
 }
-.experience {
-    font-size: 20px;
+.hero {
+    padding: 20px;
+    margin: 20px auto;
+    color: #11485f;
+    background:url("hero.png");
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position: bottom;
 }
 
-.experience span {
-    font-size: 60px;
+.experience {
+    display: flex;
+    padding-left: 35px;
+    padding-top: 150px;
+}
+
+.num {
+    font-size: 45px;
+    margin-right: 5px;
     font-weight: bold;
-    margin-right: 10px;
 }
 
 .experience-text {
     display: inline-block;
-    line-height: 1.2;
+    line-height: 1.5;
     vertical-align: middle;
+}
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-header p {
+    padding-right: 35px;
+}
+.hero-email {
+    display: flex;
+    padding: 35px;
+    color: orangered;
+    text-decoration: underline;
+}
+.main-photo {
+    display: flex;
+    align-items: center;
 }
